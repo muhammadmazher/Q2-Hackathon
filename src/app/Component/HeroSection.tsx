@@ -15,7 +15,7 @@ export default function HeroSection () {
                     alt="Rocket-Single-Seater"
                     height={900}
                     width={853}
-                    className="border"/>
+                    className=""/>
                 </div>
                 
 
