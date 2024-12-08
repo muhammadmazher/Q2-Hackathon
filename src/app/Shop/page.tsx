@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
-import { SlidersHorizontal } from 'lucide-react';
-import { LayoutGrid } from 'lucide-react';
+import { SlidersHorizontal } from "lucide-react";
+import { LayoutGrid } from "lucide-react";
 
 
 export default function Shop () {
