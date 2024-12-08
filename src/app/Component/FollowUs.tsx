@@ -5,7 +5,7 @@ export default function FollowUs () {
         <div>
             <div className="w-full h-[475px] ">
             <div className="bg-local">
-                <Image src="/FollowUS1.png" alt="followus" width={1600} height={450}/>
+                <Image src="/FollowUs1.png" alt="followus" width={1519} height={450}/>
             </div>
 
             </div>

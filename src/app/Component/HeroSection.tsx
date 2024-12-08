@@ -11,11 +11,11 @@ export default function HeroSection () {
                 </div>
                 <div className="">
                     <Image 
-                    src="/RocketSingleSeater.png"
-                    alt="Rocket Single Seater"
-                    height={1000}
+                    src="/Sofa1.png"
+                    alt="Rocket-Single-Seater"
+                    height={900}
                     width={853}
-                    className=""/>
+                    className="border"/>
                 </div>
                 
 
