@@ -1,5 +1,4 @@
 
-import MobileNavbar from "./Component/MobilleNavbar";
 import HeroSection from "./Component/HeroSection";
 import MainPage from "./Component/MainPage";
 import NewArrivals from "./Component/NewArrivals";
@@ -12,9 +11,7 @@ export default function Home() {
     <div>
       
 
-      <div className="lg:hidden">
-      <MobileNavbar />
-      </div>
+      
 
       <HeroSection />
 

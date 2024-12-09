@@ -1,8 +1,10 @@
 import Link from "next/link"
+import { ExternalLink } from 'lucide-react';
+
 export default function Footer () {
     return (
         <div>
-            <div className="w-full h-[555px] justify-items-center">
+            <div className="w-full h-[480px] justify-items-center">
                 <div className=" flex w-[1320px] h-[419px] border-b-2 ">
                     
                     <div className="mt-40 w-[285px] h-[72px] text-[#9F9F9F] text-base ml-2">
@@ -43,10 +45,9 @@ export default function Footer () {
 
                 </div>
 
-                <div className="w-full   tracking-wide pt-8">
-                            <Link href=""><p className="pl-[108px] ">2022 Meubel House. All rights reverved</p></Link> 
+                <div className="w-full flex tracking-wide pt-4 gap-1">
+                            <p className="pl-[108px] flex ">2024 Design by: <Link href="https://www.linkedin.com/in/muhammadmazher/" className=" flex h-2 italic hover:font-semibold px-2">Emas Web Solution <ExternalLink  className="h-4 mt-1"/> </Link> </p><p>  All rights reverved</p>
                     </div>
-                
             </div>
             
         </div>

@@ -34,11 +34,6 @@ export default function MobileNavbar () {
           </SheetHeader>
         </SheetContent>
       </Sheet>
-
-             
-             <div className="">
-
-            </div>
         </div>
     )
 }
