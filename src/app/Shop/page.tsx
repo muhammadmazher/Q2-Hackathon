@@ -36,7 +36,6 @@
 
 //         </div>
 
-        import Image from "next/image"
         import ProductCard from "../Component/ProductCard";
         import Link from "next/link";
         import BgImage from "../Component/BgImage";

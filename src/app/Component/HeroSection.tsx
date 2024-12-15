@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Poppins } from 'next/font/google';
 
 export default function HeroSection () {
     return(
@@ -30,7 +29,7 @@ export default function HeroSection () {
         {/* Text Section */}
         <div className="flex flex-col items-center md:items-start w-full md:max-w-[440px] md:ml-[105px] pt-10 md:pt-0">
             <h1 className="pt-[100px] text-3xl md:text-4xl md:pt-[20px] lg:text-5xl xl:text-6xl lg:text-[64px] tracking-wide text-center md:text-start">Rocket single seater</h1>
-            <button className="mt-[35px] text-2xl hover:border-b hover:border-black w-[121px]">Shop Now</button>
+            <button className="mt-[35px] text-2xl hover:border-b hover:border-black w-[121px]"><Link href={"/Shop"}>Shop Now</Link></button>
         </div>
         {/* Image Section */}
         <div className="max-w-[600px] md:h-[580px] flex items-center">
