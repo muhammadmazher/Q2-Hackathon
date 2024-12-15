@@ -1,3 +1,4 @@
+"use client"
 
 import HeroSection from "./Component/HeroSection";
 import MainPage from "./Component/MainPage";
@@ -6,11 +7,10 @@ import OurBlogs from "./Component/OurBlogs";
 import FollowUs from "./Component/FollowUs";
 
 
+
 export default function Home() {
   return (
     <div>
-      
-
       
 
       <HeroSection />
@@ -19,7 +19,7 @@ export default function Home() {
 
       <NewArrivals />
 
-      <OurBlogs />
+      {/* <OurBlogs /> */}
       <FollowUs />
 
 

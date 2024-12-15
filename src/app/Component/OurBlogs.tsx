@@ -7,16 +7,16 @@ import { Calendar } from 'lucide-react';
 export default function OurBlogs () {
     return (
         <div>
-            <div className=" w-full h-[944px] text-center justify-items-center">
+            <div className="w-full h-[944px] text-center justify-items-center">
 
                 <div className="w-[479px] h-[91px]  mt-16">
                     <h4 className="text-4xl font-semibold">Our Blogs</h4>
                     <h3 className="tracking-wide text-base text-[#9F9F9F] font-semibold mt-4">Find a bright ideal to suit your taset with out great selection</h3>
                 </div>
 
-                <div className="w-[1240px]  h-[679px]">
+                <div className="lg:w-[1240px] w-full  h-[679px]">
 
-                    <div className="pt-12 flex justify-between">
+                    <div className="pt-12  flex justify-between">
                         <div className="w-[393px] h-[555px]">
                             <Image  src="/blog1.png" alt="pic" width={400} height={400} />
                             <p className="text-xl pt-4">Going all-in with millennial design</p>

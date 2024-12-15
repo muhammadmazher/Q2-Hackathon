@@ -4,8 +4,8 @@ import { ExternalLink } from 'lucide-react';
 export default function Footer () {
     return (
         <div>
-            <div className="w-full h-[480px] justify-items-center">
-                <div className=" flex w-[1320px] h-[419px] border-b-2 ">
+            <div className="w-full h-[480px] justify-items-center sm:flex-col hidden lg:block">
+                <div className=" flex lg:w-[1320px] w-full h-[419px] lg:border-b-2 ">
                     
                     <div className="mt-40 w-[285px] h-[72px] text-[#9F9F9F] text-base ml-2">
                         <p>400 University Drive Suite 200 Coral Gables,</p>
@@ -45,9 +45,9 @@ export default function Footer () {
 
                 </div>
 
-                <div className="w-full flex tracking-wide pt-4 gap-1">
-                            <p className="pl-[108px] flex ">2024 Design by: <Link href="https://www.linkedin.com/in/muhammadmazher/" className=" flex h-2 italic hover:font-semibold px-2">Emas Web Solution <ExternalLink  className="h-4 mt-1"/> </Link> </p><p>  All rights reverved</p>
-                    </div>
+                <div className="w-full   pt-4 flex lg:tracking-wide lg:pt-4 mx-auto ">
+                            <p className="lg:pl-[108px]">2024 Design by: Emas Web Solution All rights reverved</p>
+                </div>
             </div>
             
         </div>
