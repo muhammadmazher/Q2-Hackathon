@@ -15,9 +15,9 @@ export default function MainPage () {
                         height={633}
                         />
                     </div>
-                    <div className="text-center py-4 md:pr-[100px] lg:pr-[120px] xl:pr-[200px] lg:pt-[24px] mx-auto">
-                        <h3 className="text-3xl lg:text-4xl xl:text-5xl font-semibold">Side table</h3>
-                        <p className="text-sm lg:text-base underline underline-offset-8 pt-2 lg:pt-6 font-semibold"><Link href="/">View More</Link></p>
+                    <div className="text-center py-4 md:pr-[100px] lg:pr-[120px] xl:pr-[180px] lg:pt-[24px] mx-auto">
+                        <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Side table</h3>
+                        <p className="text-base lg:text-lg underline underline-offset-8 pt-2 lg:pt-6 font-semibold"><Link href="/">View More</Link></p>
                     </div>
                 </div>
 
@@ -31,15 +31,15 @@ export default function MainPage () {
                         className=""/>
                     </div>
                     <div className="text-center py-4 md:pr-[100px] lg:pr-[120px]  xl:pr-[200px] lg:pt-[24px]  mx-auto">
-                    <h3 className="text-3xl lg:text-4xl xl:text-5xl font-semibold">Side table</h3>
-                        <p className="text-sm lg:text-base underline underline-offset-8 pt-2 lg:pt-6 font-semibold"><Link href="/">View More</Link></p>
+                    <h3 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-semibold">Side table</h3>
+                        <p className="text-base lg:text-lg underline underline-offset-8 pt-2 lg:pt-6 font-semibold"><Link href="/">View More</Link></p>
                     </div>
                 </div>
             </div>
 
             <div className="grid bg-[#FFFFFF] w-full h-[1880px] md:h-[1140px] lg:h-[720px] xl:h-[800px] mx-auto font-[poppins]">
                 <div className=" w-full">
-                    <h2 className=" text-center text-2xl md:text-3xl lg:text-4xl pt-16 font-semibold tracking-wide">Top Picks For You</h2>
+                    <h2 className="text-center text-2xl md:text-3xl lg:text-4xl pt-16 font-semibold tracking-wide">Top Picks For You</h2>
                     <h3 className="text-center px-10 pt-6 text-base lg:text-lg font-medium text-[#9F9F9F]">Find a bright ideal to suit your taste with our great selection of suspension, floor and table lights.</h3>
                 </div>
                 

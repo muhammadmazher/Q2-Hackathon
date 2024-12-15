@@ -7,22 +7,22 @@ import { Calendar } from 'lucide-react';
 export default function OurBlogs () {
     return (
         <div>
-            <div className="w-full h-[944px] text-center justify-items-center">
+            <div className="w-full grid h-full text-center items-center justify-center mx-au">
 
-                <div className="w-[479px] h-[91px]  mt-16">
+                <div className="w-[479px] h-[91px] mt-16 bg-red-300">
                     <h4 className="text-4xl font-semibold">Our Blogs</h4>
                     <h3 className="tracking-wide text-base text-[#9F9F9F] font-semibold mt-4">Find a bright ideal to suit your taset with out great selection</h3>
                 </div>
 
-                <div className="lg:w-[1240px] w-full  h-[679px]">
+                <div className="  flex items-center justify-center mx-au">
 
-                    <div className="pt-12  flex justify-between">
-                        <div className="w-[393px] h-[555px]">
+                    <div className="pt-12 ">
+                        <div className="w-[393px] h-[555px] gap-4">
                             <Image  src="/blog1.png" alt="pic" width={400} height={400} />
                             <p className="text-xl pt-4">Going all-in with millennial design</p>
                              <Link href="/"><p className="text-2xl pt-3 font-medium underline underline-offset-[16px]">Read More</p>
                              </Link>
-                             <div className="mt-10 flex justify-center gap-6">
+                             <div className="mt-10 flex justify-around gap-">
                                 <div className="flex gap-2">
                                  <Clock />
                                  <p className=""> 5 mins</p>
@@ -34,13 +34,13 @@ export default function OurBlogs () {
                              </div>
                         </div>
 
-                        <div className="w-[393px] h-[555px]">
+                        <div className="w-full h-[555px]">
                             <Image  src="/blog2.png" alt="pic" width={400} height={400} />
                             <p className="text-xl pt-4">Going all-in with millennial design</p>
                              <Link href="/"><p className="text-2xl pt-3 font-medium underline underline-offset-[16px]">Read More</p>
                              </Link>
-                             <div className="mt-10 flex justify-center gap-6">
-                                <div className="flex gap-2">
+                             <div className="mt-10  justify-center gap-6">
+                                <div className=" gap-2">
                                  <Clock />
                                  <p className=""> 5 mins</p>
                                 </div>
