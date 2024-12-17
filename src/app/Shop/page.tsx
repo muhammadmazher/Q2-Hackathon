@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SlidersHorizontal, LayoutGrid, Rows3 } from "lucide-react";
 import ProductCard from "../Component/ProductCard";
-import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbPage, BreadcrumbSeparator, } from "@/components/ui/breadcrumb"
+import { Breadcrumb, BreadcrumbItem, BreadcrumbLink, BreadcrumbList, BreadcrumbSeparator, } from "@/components/ui/breadcrumb"
 
 
 export default function Shop () {

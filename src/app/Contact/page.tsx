@@ -2,7 +2,6 @@
 // import { Input } from "@/components/ui/input";
 // import { Textarea } from "@/components/ui/textarea";
 import {MapPin,Phone,Clock} from "lucide-react"
-import BgImage from "../Component/BgImage";
 import Delivery from "../Component/Delivery";
 // import { Label } from "@/components/ui/label";
 
@@ -11,7 +10,7 @@ const Contact = () => {
   return (
     <div className="max-w-1440px mx-auto font-Poppins ">
       {/* Background Image */}
-      <BgImage pageName="Contact"/>
+      
 
       {/* Heading */}
       <div className="space-y-3 mt-10 md:mt-[98px]">
