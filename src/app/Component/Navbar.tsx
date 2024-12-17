@@ -14,7 +14,7 @@ import { Menu, Search, Heart, ShoppingCart, User } from "lucide-react"
 export default function Navbar () {
     return(
         <div>
-            <div className="w-full bg-white fixed left-0 right-0 z-50 opacity-10  ">
+            <div className="w-full bg-white fixed left-0 right-0 z-50 opacity-90  ">
 
                     {/* Desktop Navbar */}
                 <div className="lg:flex hidden py-4  lg:gap-36 xl:gap-72  justify-end lg:pr-16 xl:pr-20 mx-auto ">
