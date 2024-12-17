@@ -1,28 +1,29 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Clock } from 'lucide-react';
-import { Calendar } from 'lucide-react';
+import { Clock, Calendar } from 'lucide-react';
 
 
 export default function OurBlogs () {
     return (
         <div>
-            <div className="w-full grid h-full text-center items-center justify-center mx-au">
+            <div className="w-full h-full text-center items-cente justify-center mx-auto font-[Poppins]">
 
-                <div className="w-[479px] h-[91px] mt-16 bg-red-300">
-                    <h4 className="text-4xl font-semibold">Our Blogs</h4>
-                    <h3 className="tracking-wide text-base text-[#9F9F9F] font-semibold mt-4">Find a bright ideal to suit your taset with out great selection</h3>
+                <div className="w-full mt-16 px-10 mx-auto">
+                    <h4 className="text-2xl md:text-3xl lg:text-4xl font-semibold">Our Blogs</h4>
+                    <h3 className="tracking-wide text-base lg:text-lg text-[#9F9F9F] font-medium mt-4">Find a bright ideal to suit your taset with out great selection</h3>
                 </div>
 
-                <div className="  flex items-center justify-center mx-au">
+                <div className=" w-full grid grif-cold-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-x-6 mx-auto pt-8">
 
-                    <div className="pt-12 ">
-                        <div className="w-[393px] h-[555px] gap-4">
-                            <Image  src="/blog1.png" alt="pic" width={400} height={400} />
-                            <p className="text-xl pt-4">Going all-in with millennial design</p>
-                             <Link href="/"><p className="text-2xl pt-3 font-medium underline underline-offset-[16px]">Read More</p>
+                            {/* blog 1 - Image section */}
+                        <div className="w-[293px] xl:w-[393px] md:h-[555px] py-4">
+                            <Image  src="/blog1.png" alt="pic" width={400} height={400}/>
+
+                            {/* Blog Text, and Icons */}
+                            <p className="text-lg lg:text-xl pt-4">Going all-in with millennial design</p>
+                             <Link href="/"><p className="text-xl xl:text-2xl py-3 font-semibold underline underline-offset-8">Read More</p>
                              </Link>
-                             <div className="mt-10 flex justify-around gap-">
+                             <div className="my-4 flex justify-evenly mx-auto">
                                 <div className="flex gap-2">
                                  <Clock />
                                  <p className=""> 5 mins</p>
@@ -34,29 +35,15 @@ export default function OurBlogs () {
                              </div>
                         </div>
 
-                        <div className="w-full h-[555px]">
+                            {/* blog 1 - Image section */}
+                        <div className="w-[293px] xl:w-[393px] md:h-[555px] py-4">
                             <Image  src="/blog2.png" alt="pic" width={400} height={400} />
-                            <p className="text-xl pt-4">Going all-in with millennial design</p>
-                             <Link href="/"><p className="text-2xl pt-3 font-medium underline underline-offset-[16px]">Read More</p>
-                             </Link>
-                             <div className="mt-10  justify-center gap-6">
-                                <div className=" gap-2">
-                                 <Clock />
-                                 <p className=""> 5 mins</p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <Calendar />
-                                <p>12th Oct 2024</p>
-                                </div>
-                             </div>
-                        </div>
 
-                        <div className="w-[393px] h-[555px]">
-                            <Image  src="/blog3.png" alt="" width={400} height={400} />
-                            <p className="text-xl pt-4">Going all-in with millennial design</p>
-                             <Link href="/"><p className="text-2xl pt-3 font-medium underline underline-offset-[16px]">Read More</p>
+                            {/* Blog 2 Text, and Icons */}
+                            <p className="text-lg lg:text-xl pt-4">Going all-in with millennial design</p>
+                             <Link href="/"><p className="text-xl xl:text-2xl py-3 font-semibold underline underline-offset-8">Read More</p>
                              </Link>
-                             <div className="mt-10 flex justify-center gap-6">
+                             <div className="my-4 flex justify-evenly mx-auto">
                                 <div className="flex gap-2">
                                  <Clock />
                                  <p className=""> 5 mins</p>
@@ -68,14 +55,34 @@ export default function OurBlogs () {
                              </div>
                         </div>
 
-                    </div>
+                            {/* blog 1 - Image section */}
+                        <div className="w-[293px] xl:w-[393px] justify-self-centercenter items-center py-4">
+                            <Image  src="/blog3.png" alt="pic" width={400} height={400} />
+
+                            {/* Blog Text, and Icons */}
+                            <p className="text-lg lg:text-xl pt-4">Going all-in with millennial design</p>
+                             <Link href="/">
+                             <p className=" text-xl xl:text-2xl my-3 font-semibold underline underline-offset-8 mx-auto">
+                                Read More</p>
+                             </Link>
+                             <div className="my-4 flex justify-evenly mx-auto">
+                                <div className="flex gap-2">
+                                 <Clock />
+                                 <p className=""> 5 mins</p>
+                                </div>
+                                <div className="flex gap-2">
+                                    <Calendar />
+                                <p>12th Oct 2024</p>
+                                </div>
+                             </div>
+                        </div>
                 </div>
-
-                <div className="w-full underline underline-offset-[12px] text-lg mt- font-semibold text-center hover:decoration-2">
-                        <Link href="/"><p>View More</p>
+                
+                    {/* View More */}
+                <div className="w-[90px] lg:text-xl font-semibold my-10 mx-auto">
+                        <Link href="/" ><p className="w-[90px] h-7 lg:w-28 lg:h-8 underline underline-offset-8 decoration-2 hover:text-gray-600 hover:decoration-gray-500 hover:decoration-2 mx-auto">View More</p>
                         </Link>
-                    </div>
-
+                </div>
 
             </div>
 
